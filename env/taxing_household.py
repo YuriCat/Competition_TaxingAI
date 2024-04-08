@@ -107,7 +107,7 @@ class Taxing_Household(Game):
         self.done = done
         if self.done:
             self.set_n_return()
-            print('Final n_return = ', self.n_return)
+            #print('Final n_return = ', self.n_return)
 
         reward = house_r[:,0] #dict(zip(self.agent_id, [gov_r, house_r]))
 

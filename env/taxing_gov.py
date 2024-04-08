@@ -111,7 +111,7 @@ class Taxing_Gov(Game):
         self.done = done
         if self.done:
             self.set_n_return()
-            print('Final n_return = ', self.n_return)
+            #print('Final n_return = ', self.n_return)
 
 
         return self.all_observes, reward, self.done, info_before, info_after
